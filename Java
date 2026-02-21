@@ -1,0 +1,15 @@
+public class BilkhaInfo {
+    private final String name = "Bilkha";
+    private final String district = "Junagadh";
+    private final String legend = "King Sagalsha and Queen Changavati";
+
+    public void displayProfile() {
+        System.out.println("Exploring " + name + "...");
+        System.out.println("Located in: " + district + " District");
+        System.out.println("Famous Legend: " + legend);
+    }
+
+    public static void main(String[] args) {
+        new BilkhaInfo().displayProfile();
+    }
+}
