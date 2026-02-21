@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+
+struct Village {
+    std::string name = "Bilkha";
+    std::string district = "Junagadh";
+    std::string landmark = "Bilkheshwar Mahadev";
+    int pincode = 362110;
+};
+
+int main() {
+    Village v;
+    std::cout << "--- Village Data ---\n";
+    std::cout << "Name: " << v.name << "\n";
+    std::cout << "District: " << v.district << "\n";
+    std::cout << "Famous Landmark: " << v.landmark << "\n";
+    std::cout << "PIN: " << v.pincode << std::endl;
+    return 0;
+}
