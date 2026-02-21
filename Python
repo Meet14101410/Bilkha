@@ -1,0 +1,15 @@
+def get_bilkha_stats():
+    bilkha_data = {
+        "Name": "Bilkha",
+        "State": "Gujarat",
+        "District": "Junagadh",
+        "Known_For": "Bilkheshwar Mahadev Temple",
+        "Significance": "Associated with the Sagalsha legend"
+    }
+    
+    print("--- Bilkha Village Overview ---")
+    for key, value in bilkha_data.items():
+        print(f"{key}: {value}")
+
+if __name__ == "__main__":
+    get_bilkha_stats()
